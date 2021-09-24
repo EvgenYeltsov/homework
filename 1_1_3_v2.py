@@ -1,0 +1,13 @@
+# Task 1_1_3. Print letter "O" and "H" using symbol "#".
+print('#', '#', sep='\t\t', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#########', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print()
+print('#########', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#', '#', sep='\t\t', end='\n')
+print('#########', end='\n')
