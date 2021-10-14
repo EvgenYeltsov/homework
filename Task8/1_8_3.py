@@ -7,6 +7,6 @@ def make_operation(operator, *args):
     return print(res_1, argument)
 
 
-make_operation('+', 7, 7, 2)
+make_operation('+', 7, 7, 8)
 make_operation('-', 5, 5, -10, -20)
 make_operation('*', 7, 6)
