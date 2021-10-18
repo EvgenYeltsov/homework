@@ -1,13 +1,13 @@
 def make_calc(op, *args):
-    dict_ = {"+": plus, "-": minus, "*": exp}
+    dict_ = {"+": plus, "-": minus, "*": mul}
     return dict_[op](*args)
 
 
 def plus(*args):
-    res = args[0]
+    res_ = args[0]
     for i in args[1:]:
-        res += i
-    return res
+        res_ += i
+    return res_
 
 
 def minus(*args):
@@ -17,12 +17,12 @@ def minus(*args):
     return min_
 
 
-def exp(*args):
-    exp_ = args[0]
+def mul(*args):
+    mul_ = args[0]
     for i in args[1:]:
-        exp_ = exp_ * i
-    return exp_
+        mul_ = mul_ * i
+    return mul_
 
 
-res = make_calc("+", 1, 2, 1)
+res = make_calc("+", 1, 5, 1)
 print(res)
