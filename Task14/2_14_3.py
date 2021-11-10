@@ -17,7 +17,13 @@ class Fraction:
     def __truediv__(self, other):
         return self.var / other.var
 
+    def __eq__(self, other):
+        return self.var == other.var
+        # return other == self.var
 
 x = Fraction(1/2)
 y = Fraction(1/4)
+
 print(x+y, x-y, x*y, x/y, sep='< >')
+
+assert Fraction(x+y) == Fraction(3/4), 'Oops'
